@@ -6,6 +6,7 @@ authorize the twitter developer app on your account
 create an application (set the permissions to read-write)
 Create your access token
 
+in salesforce, add a remote site that can talk to https://api.twitter.com
 
 
 To send a tweet:
