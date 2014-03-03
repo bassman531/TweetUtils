@@ -1,1 +1,19 @@
 This is a library of classes to help interaction between salesforce and twitter.
+
+first things first:
+go to https://dev.twitter.com
+authorize the twitter developer app on your account
+create an application (set the permissions to read-write)
+Create your access token
+
+
+
+To send a tweet:
+
+TweetUtil tu = new TweetUtil(
+                     your_application_api_key, 
+                     your_application_api_secret, 
+                     your_access_token, 
+                     your_access_token_secret);
+
+tu.sendTweet(Tweet_text_goes_here, null);
